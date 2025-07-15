@@ -6,61 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <style>
-            /* Custom CSS to ensure Act-On section is full width and has proper padding */
-            @media screen and (min-width: 981px) { /* Apply on wider screens where .posts usually creates columns */
-                .single-column-article {
-                    width: 100% !important; /* Force full width */
-                    max-width: 100%; /* Ensure it doesn't break out */
-                    margin: 0 auto !important; /* Center the container if width allows */
-                    padding: 2.5em 2em !important; /* Re-apply internal padding to content within the article */
-                    box-sizing: border-box; /* Include padding in the width calculation */
-
-                    /* Reset any float specific to Massively's grid if it causes issues */
-                    float: none !important;
-                }
-
-                /* Ensure the grid articles still align correctly if the single-column one affects them */
-                .posts article:not(.single-column-article) {
-                    width: calc(50% - 1em); /* Standard 2-column width for other articles */
-                    margin-left: 1em;
-                    margin-right: 0; /* Ensure no extra margin */
-                    float: left; /* Ensure floating for 2-column layout */
-                }
-                .posts article:not(.single-column-article):nth-child(2n - 1) {
-                    margin-left: 0;
-                }
-            }
-
-            /* Basic styling for the new project details list styling */
-            .project-details {
-                list-style-type: disc; /* Keep default bullets or change to none */
-                padding-left: 1.5em; /* Standard indentation */
-            }
-            .project-details li {
-                margin-bottom: 0.8em; /* Spacing between points */
-            }
-            .project-details li strong {
-                display: inline; /* Keep bold text inline with the rest of the sentence */
-            }
-
-            /* Image sizing - Massively theme usually handles this with .image.fit,
-               but if specific images are an issue, this can be more targeted */
-            .image.fit img {
-                max-width: 100%;
-                height: auto;
-                display: block; /* Ensures no extra space below image */
-            }
-            /* If Act-On logo is still an issue, uncomment and adjust this: */
-            /*
-            .single-column-article .image.fit img {
-                max-width: 200px; // Example fixed width, adjust as needed
-                height: auto;
-                margin: 0 auto; // Center the logo
-            }
-            */
-        </style>
-	</head>
+        </head>
 	<body class="is-preload">
 
 		<div id="wrapper" class="fade-in">
@@ -92,7 +38,7 @@
 						<article class="post featured">
 								<header class="major">
 									<h3>About Me</h3>
-									<p>Max Ellis graduated with a Master's degree from the University of Alberta in June 2022. He started working as a Software Engineer at Act-On in November 2022 and quickly found his stride, developing a deep passion for the field. Max constantly seeks opportunities to grow, contribute, and become a better software engineer, viewing his work as a fulfilling hobby. [cite: 95]</p>
+									<p>Max Ellis graduated with a Master's degree from the University of Alberta in June 2022. He started working as a Software Engineer at Act-On in November 2022 and quickly found his stride, developing a deep passion for the field. Max constantly seeks opportunities to grow, contribute, and become a better software engineer, viewing his work as a fulfilling hobby.</p>
                                     <p>He brings a unique perspective from his time as a wildland firefighter, ready to roll up his sleeves, adapt to rapidly changing situations, and fight any virtual "fires" that arise. Max is driven by a commitment to build resilient systems and solve complex problems at scale, translating complex challenges into robust engineering solutions.</p>
 								</header>
 								<a href="#"><img src="images/prof.jpg" alt="" width = "500" height = "500" /></a>
@@ -100,50 +46,50 @@
 
 						<h2 style ="text-align: center">EDUCATION</h2>
 							<article>
-								<p><b>M.Sc Computing Science : </b>University of Alberta, Edmonton, Alberta [cite: 108]<br />
-								<b>Graduation: </b>June 2022 [cite: 109]<br/>
-								<b>Advisor :</b> Sarah Nadi [cite: 110]<br/>
-								<b>GPA : </b>4.0/4.0 [cite: 111]<br/> </p>
-								<p><b>B.Sc Computer Science : </b>Washington State University, Vancouver, Washington [cite: 112]<br />
-								<b>Graduated : </b>May 2019 [cite: 113]<br/>
-								<b>GPA : </b>3.92/4.0 [cite: 114]</p>
+								<p><b>M.Sc Computing Science : </b>University of Alberta, Edmonton, Alberta<br />
+								<b>Graduation: </b>June 2022 <br/>
+								<b>Advisor :</b> Sarah Nadi <br/>
+								<b>GPA : </b>4.0/4.0 <br/> </p>
+								<p><b>B.Sc Computer Science : </b>Washington State University, Vancouver, Washington<br />
+								<b>Graduated : </b>May 2019 <br/>
+								<b>GPA : </b>3.92/4.0 </p>
 							</article>
 
 						<h2 style ="text-align: center">WORK EXPERIENCE</h2>
                         <section class="posts">
                             <article class="single-column-article">
                                 <header>
-                                    <span class="date">November 2022 - Present [cite: 85]</span>
-                                    <h2>Senior Software Engineer, Act-On Software [cite: 83, 84]</h2>
+                                    <span class="date">November 2022 - Present</span>
+                                    <h2>Senior Software Engineer, Act-On Software</h2>
                                 </header>
                                 <p class="image fit"><img src="images/act-on.jpg" alt="Act-On Logo" /></p>
                                 <p>
-                                    As a Senior Software Engineer at Act-On, I've been instrumental in architecting, developing, and optimizing critical data infrastructure and services, driving significant improvements in performance, reliability, and scalability for our marketing automation platform. My tenure has involved rapid growth and an increasing scope of responsibility, tackling complex engineering challenges and contributing to strategic technical initiatives. I lead projects from design through deployment, ensuring high-quality, maintainable solutions. [cite: 83, 84, 85]
+                                    As a Senior Software Engineer at Act-On, I've been instrumental in architecting, developing, and optimizing critical data infrastructure and services, driving significant improvements in performance, reliability, and scalability for our marketing automation platform. My tenure has involved rapid growth and an increasing scope of responsibility, tackling complex engineering challenges and contributing to strategic technical initiatives. I lead projects from design through deployment, ensuring high-quality, maintainable solutions.
                                 </p>
                                 <ul class="project-details">
-                                    <li><strong>End-to-End Feature Development & Integration:</strong> Played a pivotal role in the design, implementation, and deployment of complex features like Act-On’s Custom Objects[cite: 86]. This involved deep dives into customer needs, translating requirements into technical specifications, and building robust integrations to onboard and utilize customer-specific structured data for advanced segmentation and personalization[cite: 86].</li>
-                                    <li><strong>High-Throughput Data Pipeline & Real-time Processing:</strong> Architected and implemented a sophisticated, real-time data pipeline capable of handling massive data volumes[cite: 87]. This system leverages Apache Kafka for high-throughput message queuing, AWS Snowpipe for efficient streaming data ingestion into Snowflake, and Spring Cloud Data Flow for orchestrating intricate data transformation pipelines, consistently maintaining low latency for critical data pathways[cite: 87, 93, 94].</li>
-                                    <li><strong>Data Lake Service Optimization & Reliability:</strong> Led critical initiatives to enhance Act-On’s data infrastructure, specifically stabilizing the Data Lake management service. By implementing optimized Snowflake deferred merge strategies and refining data indexing, I successfully eliminated persistent data errors (previously over 800 per hour), drastically reduced average response times from 8 minutes to 300 milliseconds, and eradicated data duplication, leading to significant improvements in data integrity and system reliability[cite: 89].</li>
-                                    <li><strong>Mission-Critical Service Modernization & Cloud Migration Strategy:</strong> Spearheaded the comprehensive modernization of a legacy, monolithic dataflow service. This included a significant upgrade from Java 8 to Java 21, resolving complex compatibility issues, and consolidating distributed H2 databases into a centralized PostgreSQL system[cite: 90]. This transformation not only vastly improved service stability and performance but also laid crucial groundwork for, and directly enabled, its seamless migration to AWS cloud environments[cite: 90, 91].</li>
-                                    <li><strong>Resilient Cloud Infrastructure Development:</strong> Built and managed core Snowflake and AWS infrastructure (e.g., S3, EC2, ECS, Lambda, RDS) using Infrastructure-as-Code tools like Terraform and Puppet. My focus was on establishing a foundation for highly resilient, scalable services capable of processing millions of data points, ensuring robust performance and stability in a dynamic production environment[cite: 81, 87, 88].</li>
-                                    <li><strong>Proactive Monitoring & Operational Excellence:</strong> Designed and established comprehensive monitoring and alerting systems across key services. This proactive approach enabled rapid identification and resolution of performance bottlenecks and potential operational issues, ensuring continuous system health and contributing to overall operational excellence in production[cite: 92].</li>
-                                    <li><strong>Technical Leadership & Cross-Functional Collaboration:</strong> Consistently collaborated with project leads, product managers, and other software developers to translate complex product requirements into clear technical designs and resolve challenging architectural problems. I also contributed to team growth by championing customer support escalations, allowing core development teams to focus on strategic initiatives, and by actively mentoring junior developers in testing methodologies and code design principles[cite: 19, 96].</li>
+                                    [cite_start]<li><strong>End-to-End Feature Development & Integration:</strong> Played a pivotal role in the design, implementation, and deployment of complex features like Act-On’s Custom Objects[cite: 14]. This involved deep dives into customer needs, translating requirements into technical specifications, and building robust integrations to onboard and utilize customer-specific structured data for advanced segmentation and personalization.</li>
+                                    <li><strong>High-Throughput Data Pipeline & Real-time Processing:</strong> Architected and implemented a sophisticated, real-time data pipeline capable of handling massive data volumes. [cite_start]This system leverages Apache Kafka for high-throughput message queuing, AWS Snowpipe for efficient streaming data ingestion into Snowflake, and Spring Cloud Data Flow for orchestrating intricate data transformation pipelines[cite: 15], consistently maintaining low latency for critical data pathways.</li>
+                                    [cite_start]<li><strong>Data Lake Service Optimization & Reliability:</strong> Led critical initiatives to enhance Act-On’s data infrastructure, specifically stabilizing the Data Lake management service[cite: 17]. [cite_start]By implementing optimized Snowflake deferred merge strategies and refining data indexing, I successfully eliminated persistent data errors (previously over 800 per hour), drastically reduced average response times from 8 minutes to 300 milliseconds, and eradicated data duplication[cite: 17], leading to significant improvements in data integrity and system reliability.</li>
+                                    [cite_start]<li><strong>Mission-Critical Service Modernization & Cloud Migration Strategy:</strong> Spearheaded the comprehensive modernization of a legacy, monolithic dataflow service[cite: 18]. [cite_start]This included a significant upgrade from Java 8 to Java 21, resolving complex compatibility issues, and consolidating distributed H2 databases into a centralized PostgreSQL system[cite: 18]. [cite_start]This transformation not only vastly improved service stability and performance but also laid crucial groundwork for, and directly enabled, its seamless migration to AWS cloud environments[cite: 19].</li>
+                                    [cite_start]<li><strong>Resilient Cloud Infrastructure Development:</strong> Built and managed core Snowflake and AWS infrastructure (e.g., S3, EC2, ECS, Lambda, RDS) using Infrastructure-as-Code tools like Terraform and Puppet[cite: 10]. My focus was on establishing a foundation for highly resilient, scalable services capable of processing millions of data points, ensuring robust performance and stability in a dynamic production environment.</li>
+                                    [cite_start]<li><strong>Proactive Monitoring & Operational Excellence:</strong> Designed and established comprehensive monitoring and alerting systems across key services [cite: 20] to proactively identify and address performance bottlenecks and potential operational issues, ensuring continuous system health and contributing to overall operational excellence.</li>
+                                    <li><strong>Technical Leadership & Cross-Functional Collaboration:</strong> Consistently collaborated with project leads, product managers, and other software developers to translate complex product requirements into clear technical designs and resolve challenging architectural problems. [cite_start]I also contributed to team growth by championing customer support escalations, allowing core development teams to focus on strategic initiatives, and by actively mentoring junior developers in testing methodologies and code design principles[cite: 23].</li>
                                 </ul>
                             </article>
                             <article>
 									<header>
-										<span class="date">May 2020 - December 2021 [cite: 99]</span>
-										<h2>Research Assistant, University of Alberta [cite: 97, 98]</h2>
+										<span class="date">May 2020 - December 2021</span>
+										<h2>Research Assistant, University of Alberta</h2>
 									</header>
-									 <p class="image fit"><img src="images/SMR.png" alt="SMR Logo" /></p>
-									<p> <ul><li>Spearheaded the effort to revitalize refactoring-aware operation-based merging in a Java-based implementation. [cite: 100]</li><li>Led a collaboration with an external collaborator. [cite: 100]</li><li>Emulated double dispatch in Java to make operation-based merging feasible to scale and maintain. </li><li>Utilized the state-of-the-art refactoring detection tool to apply our approach to Git. [cite: 100]</li><li>Leveraged sparsely documented third party Java libraries to programmatically perform refactorings and detect refactoring-related merge conflicts. [cite: 102]</li><li>Performed a large-scale empirical evaluation and a systematic quantitative analysis to determine the feasibility of our approach in practice and compare with the state-of-the-art refactoring-aware merging technique, IntelliMerge. [cite: 101]</li></ul></p>
+									 <p class="image fit"><img src="images/SMR.png" alt="" /></p>
+									[cite_start]<p><ul><li>Spearheaded a project with an external collaborator to revitalize operation-based refactoring-aware merging, allowing it to be applied in practice with Git. [cite: 26] [cite_start]</li><li>Analyzed experimental data utilizing Python libraries to compare the strengths and weaknesses of two refactoring-aware merging approaches, providing insights and paths forward for each approach. [cite: 27] [cite_start]</li><li>Leveraged sparsely documented third party libraries to programmatically perform refactorings and detect refactoring-related merge conflicts, supporting 17 of the most common known refactoring types. [cite: 28] </li></ul></p>
 								</article>
 								<article>
 									<header>
 										<span class="date">September 2019 - May 2020</span>
 										<h2>Teaching Assistant, University of Alberta</h2>
 									</header>
-									<p class="image fit"><img src="images/UofA.JPG" alt="University of Alberta Logo" /></p>
+									<p class="image fit"><img src="images/UofA.JPG" alt="" /></p>
 									<p><ul><li>Delivered course material in a lab setting to help students succeed in CMPUT 379 (Operating Systems).</li>
 										<li> Presented additional information and answered questions in office hours and online about operating systems and C/C++.</li>
 										<li> Designed assessments, quizzes, and exams alongside the instructor to assess the students' mastery of the material.</li></ul> </p>
@@ -153,7 +99,7 @@
 										<span class="date">April 2016 - May 2019</span>
 										<h2>STEM Tutor, Clark College</h2>
 									</header>
-									 <p class="image fit"><img src="images/Clark.jpg" alt="Clark College Logo" /></p>
+									 <p class="image fit"><img src="images/Clark.jpg" alt="" /></p>
 									<p><ul><li>Assisted students at all levels with STEM fields such as computer science, math, electrical engineering, and more.</li>
 										<li>Helped students through a variety of methods to adapt to each student's learning style.</li>
 										<li>Fostered a positive and inclusive environment for all students and staff using interpersonal skills.</li></ul></p>
@@ -167,7 +113,7 @@
 										<h2>Wildland Firefighter (Type 2 Initial Attack), GFP Response</h2>
 
 									</header>
-									 <p class="image fit"><img src="images/GFP.jpg" alt="Wildland Firefighter" /></p>
+									 <p class="image fit"><img src="images/GFP.jpg" alt="" /></p>
 									<p><ul><li>Adapted to rapidly changing situations and environments to keep my team and myself safe.</li>
 										<li>Completed objectives effectively through teamwork with my team and other teams while under intense pressure to keep the public safe.</li>
 										<li>Actively communicated fire behavior with other firefighters and air attack to ensure safe fire engagement.</li></ul></p>
