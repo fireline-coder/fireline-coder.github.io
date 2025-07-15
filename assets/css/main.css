@@ -4737,3 +4737,13 @@ strong {
     padding: 1.5em; /* Default padding for all articles in the .posts section */
     box-sizing: border-box;
 }
+.post.featured div { /* Target paragraphs within the featured post (About Me) */
+    line-height: 1.8; /* Increase line height for better readability */
+    letter-spacing: 0.02em; /* Slightly increase letter spacing */
+    padding: 1.5em 2em; /* Add padding around the text */
+    background-color: #f8f8f8; /* Very light grey background */
+    border-radius: 8px; /* Slightly rounded corners for the box */
+    margin-bottom: 1.5em; /* Space below the box */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+        font-style: normal !important; /* REMOVE ITALICS */
+}
