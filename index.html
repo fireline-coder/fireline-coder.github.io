@@ -21,7 +21,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Max Ellis</h1>
-						<p>Senior Software Engineer & Problem Solver</p>
+						<p>Senior Software Engineer | Problem Solver with a Firefighter's Resolve</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -50,8 +50,8 @@
 							<article class="post featured">
 								<header class="major">
 									<h3>About Me</h3>
-									<p>Max Ellis graduated with a Master's degree from the University of Alberta in June 2022. He started working as a Software Engineer at Act-On in November 2022 and quickly found his stride, developing a deep passion for the field. Max constantly seeks opportunities to grow, contribute, and become a better software engineer, viewing his work as a fulfilling hobby.</p>
-                                    <p>He brings a unique perspective from his time as a wildland firefighter, ready to roll up his sleeves, adapt to rapidly changing situations, and fight any virtual "fires" that arise. Max is driven by a commitment to build resilient systems and solve complex problems at scale, translating complex challenges into robust engineering solutions.</p>
+									<p>I graduated with a Master's degree from the University of Alberta in June 2022. Starting my journey as a Software Engineer at Act-On in November 2022, I quickly found my stride and developed a deep passion for the field. I constantly seek opportunities to grow, contribute, and become a better software engineer, viewing my work as a fulfilling hobby.</p>
+                                    					<p>My unique perspective stems from my time as a wildland firefighter, where I learned to roll up my sleeves, adapt rapidly to changing situations, and now fight any 'virtual fires' that arise. This foundation, combined with my commitment to building resilient systems and solving complex problems at scale, fuels an unwavering drive to contribute meaningfully and engineer transformative change.</p>
 								</header>
 								<a href="#"><img src="images/prof.jpg" alt="" width = "500" height = "500" /></a>
 							</article>
@@ -78,15 +78,23 @@
                             <p class="image fit"><img src="images/act-on.jpg" alt="Act-On Logo" /></p>
                             <p>
                                 As a Senior Software Engineer at Act-On, I've been instrumental in architecting, developing, and optimizing critical data infrastructure and services, driving significant improvements in performance, reliability, and scalability for our marketing automation platform. My tenure has involved rapid growth and an increasing scope of responsibility, tackling complex engineering challenges and contributing to strategic technical initiatives. I lead projects from design through deployment, ensuring high-quality, maintainable solutions.
+                                I most recently led the design and implementation of Act-On's Custom Objects feature, building a robust, highly-available data ingestion and transformation pipeline for diverse customer datasets. This system enables real-time analytics and personalized marketing experiences.
                             </p>
                             <ul class="project-details">
-                                <li><strong>End-to-End Feature Development & Integration:</strong> Played a pivotal role in the design, implementation, and deployment of complex features like Act-On’s Custom Objects. This involved deep dives into customer needs, translating requirements into technical specifications, and building robust integrations to onboard and utilize customer-specific structured data for advanced segmentation and personalization.</li>
-                                <li><strong>High-Throughput Data Pipeline & Real-time Processing:</strong> Architected and implemented a sophisticated, real-time data pipeline capable of handling massive data volumes. This system leverages Apache Kafka for high-throughput message queuing, AWS Snowpipe for efficient streaming data ingestion into Snowflake, and Spring Cloud Data Flow for orchestrating intricate data transformation pipelines, consistently maintaining low latency for critical data pathways.</li>
-                                <li><strong>Data Lake Service Optimization & Reliability:</strong> Led critical initiatives to enhance Act-On’s data infrastructure, specifically stabilizing the Data Lake management service. By implementing optimized Snowflake deferred merge strategies and refining data indexing, I successfully eliminated persistent data errors (previously over 800 per hour), drastically reduced average response times from 8 minutes to 300 milliseconds, and eradicated data duplication, leading to significant improvements in data integrity and system reliability.</li>
-                                <li><strong>Mission-Critical Service Modernization & Cloud Migration Strategy:</strong> Spearheaded the comprehensive modernization of a legacy, monolithic dataflow service. This included a significant upgrade from Java 8 to Java 21, resolving numerous compatibility issues, and consolidating distributed H2 databases into a centralized PostgreSQL system. This transformation not only vastly improved service stability and performance but also laid crucial groundwork for, and directly enabled, its seamless migration to AWS cloud environments.</li>
-                                <li><strong>Resilient Cloud Infrastructure Development:</strong> Built and managed core Snowflake and AWS infrastructure (e.g., S3, EC2, ECS, Lambda, RDS) using Infrastructure-as-Code tools like Terraform and Puppet. My focus was on establishing a foundation for highly resilient, scalable services capable of processing millions of data points, ensuring robust performance and stability in a dynamic production environment.</li>
-                                <li><strong>Proactive Monitoring & Operational Excellence:</strong> Designed and established comprehensive monitoring and alerting systems across key services to proactively identify and address performance bottlenecks and potential operational issues, ensuring continuous system health and contributing to overall operational excellence.</li>
-                                <li><strong>Technical Leadership & Cross-Functional Collaboration:</strong> Consistently collaborated with project leads, product managers, and other software developers to translate complex product requirements into clear technical designs and resolve challenging architectural problems. I also contributed to team growth by championing customer support escalations, allowing core development teams to focus on strategic initiatives, and by actively mentoring junior developers in testing methodologies and code design principles.</li>
+                                <li><strong>Problem & Solution:</strong> Architected a flexible, schema-agnostic ingestion system to allow customers to integrate proprietary structured data (e.g., concert tickets, college grades, sales records) for segmentation, transforming raw input into a standardized format.</li>
+                                <li><strong>Core Technologies:</strong> Leveraged Apache Kafka for high-throughput message queuing, Snowpipe Streaming for efficient streaming data ingestion into Snowflake, Deferred Merge for real-time data visibility and ensuring data integrity, and Spring Cloud Data Flow (SCDF) for orchestrating complex data transformation pipelines.</li>
+                                <li><strong>Scalability & Performance:</strong> Engineered the system for dynamic scalability, processing 5 million records in less than 3 minutes.</li>
+                                <li><strong>Impact & Business Value:</strong> Enabled a new, high-value product offering that expanded Act-On's capabilities, allowing precise audience segmentation and personalized campaigns. This feature opened new revenue streams and enhanced customer stickiness.</li>
+                            </ul>
+
+                            <!-- General Act-On Contributions (Optional - can be removed if the above is enough) -->
+                            <p>
+                                Beyond this core project, my time at Act-On involved a broad range of contributions across our data infrastructure and services. I actively engaged in enhancing system reliability, optimizing performance, and modernizing legacy components to support the platform's evolution and ensure a stable production environment for millions of users.
+                            </p>
+                            <ul class="project-details">
+                                <li><strong>Rapid Progression:</strong> Achieved rapid progression from Junior to Mid-level Engineer (March 2024), and subsequently to Senior (June 2025), demonstrating exceptional proficiency in modern stack technologies (Spring Boot, Kubernetes, Snowflake, PostgreSQL, Kafka, GraphQL, REST, and AWS services).</li>
+                                <li><strong>Technical Leadership & Mentorship:</strong> Actively mentored junior developers in testing methodologies and code design principles, and collaborated across teams to resolve complex technical challenges and drive process improvements.</li>
+                                <li><strong>Operational Excellence:</strong> Contributed to establishing comprehensive monitoring and alerting systems across key services to proactively identify and address performance bottlenecks and potential operational issues.</li>
                             </ul>
                         </article>
 
@@ -148,15 +156,14 @@
                                     <header>
                                         <h3>Real-time Data Ingestion & Transformation Platform</h3>
                                     </header>
-                                    <p class="image fit"><img src="images/data_pipeline.jpg" alt="Data Pipeline Diagram" /></p>
+                                    <p class="image fit"><img src="images/data_pipeline.jpg" alt="Act-On Logo" /></p>
                                     <p>
-                                        Architected and implemented a robust, highly-available data ingestion and transformation platform critical for Act-On's marketing automation services. This system processes millions of customer data points daily, enabling real-time analytics and personalized customer experiences.
+                                        Architected and implemented a robust, highly-available data ingestion and transformation platform critical for Act-On's marketing automation services. This system processes two modes of data, batch upload and streaming. The batch upload mode processes one million records with 52 columns (1 GB of data) in less than one minute while generating a verbose error report for any record that fails validation, empowering the user.
                                     </p>
                                     <ul class="project-details">
-                                        <li><strong>Core Technologies:</strong> Leveraged Apache Kafka for high-throughput message queuing, AWS Snowpipe for efficient streaming data ingestion into Snowflake, and Spring Cloud Data Flow for orchestrating complex data transformation pipelines.</li>
-                                        <li><strong>Scalability & Performance:</strong> Designed the system to dynamically scale with increasing data volumes, consistently maintaining sub-second latency for critical data pathways. Optimized Snowflake queries and data models to ensure efficient processing and retrieval.</li>
-                                        <li><strong>Impact:</strong> Directly enabled new product features requiring immediate data availability, improved the accuracy of customer segmentation, and reduced data processing costs by optimizing resource utilization.</li>
-                                        <li><strong>Role:</strong> Lead Architect and primary developer for key components of the ingestion and transformation layers.</li>
+                                        <p><strong>Core Technologies:</strong> Leveraged Apache Kafka for high-throughput message queuing, AWS Snowpipe for efficient streaming data ingestion into Snowflake, and Spring Cloud Data Flow for orchestrating complex data transformation pipelines.</p>
+                                        <p><strong>Scalability & Performance:</strong> Designed the system to dynamically scale with increasing data volumes, consistently maintaining sub-second latency for critical data pathways. Optimized Snowflake queries and data models to ensure efficient processing and retrieval.</p>
+                                        <p><strong>Impact:</strong> Directly enabled new product features requiring immediate data availability, improved the power of segmentation, and reduced data processing costs by optimizing resource utilization.</p>
                                     </ul>
                                 </article>
 
@@ -164,15 +171,15 @@
                                     <header>
                                         <h3>Legacy Service Modernization & Cloud Migration</h3>
                                     </header>
-                                    <p class="image fit"><img src="images/modernization.jpg" alt="Code Modernization" /></p>
+                                    <p class="image fit"><img src="images/modernization.jpg" alt="Act-On Logo" /></p>
                                     <p>
-                                        Led the comprehensive modernization of a mission-critical, monolithic dataflow service responsible for core marketing automation logic. This initiative was key to improving system stability, performance, and laying groundwork for full cloud migration.
+                                        Led the comprehensive modernization of a mission-critical, monolithic dataflow service responsible for core marketing automation logic. This initiative was key to improving system stability, performance, and laying groundwork for full cloud migration. This system consumed 7 different sources of data and used kinesis streams to send the data to 13 different downstream dependencies, including various microservices, Snowflake, and S3.
                                     </p>
                                     <ul class="project-details">
-                                        <li><strong>Technical Upgrade:</strong> Orchestrated the upgrade of the entire service codebase from Java 8 to Java 21, resolving numerous compatibility issues and leveraging modern language features for improved performance and maintainability.</li>
-                                        <li><strong>Database Centralization:</strong> Consolidated disparate, distributed H2 databases into a centralized PostgreSQL system, eliminating data inconsistencies and simplifying database management.</li>
-                                        <li><strong>Migration Strategy:</strong> Developed a detailed rollout plan and comprehensive test suite to mitigate risk during the upgrade and database migration, ensuring zero downtime for customers.</li>
-                                        <li><strong>Cloud Readiness:</strong> This modernization significantly improved service visibility and reduced its footprint, directly enabling its seamless migration from an on-premise data center to AWS, improving overall operational efficiency and resilience.</li>
+                                        <p><strong>Technical Upgrade:</strong> Orchestrated the upgrade of the entire service codebase from Java 8 to Java 21, resolving numerous compatibility issues and leveraging modern language features for improved performance and maintainability. This also involved upgrading our H2 instances, which required careful collaboration with our Ops team.</p>
+                                        <p><strong>Database Centralization:</strong> Consolidated disparate, distributed H2 databases into a centralized PostgreSQL system, eliminating data inconsistencies and simplifying database management.</p>
+                                        <p><strong>Migration Strategy:</strong> Developed a detailed rollout plan and comprehensive test suite to mitigate risk during the upgrade and database migration, ensuring zero downtime for customers.</p>
+                                        <p><strong>Cloud Readiness:</strong> This modernization significantly improved service visibility and reduced its footprint, directly enabling a seamless migration of our infrastructure from an Flexential data centers to AWS, improving overall operational efficiency and resilience.</p>
                                     </ul>
                                 </article>
 
@@ -180,15 +187,14 @@
                                     <header>
                                         <h3>Data Lake Performance & Reliability Enhancement</h3>
                                     </header>
-                                    <p class="image fit"><img src="images/data_lake_optimization.jpg" alt="Data Lake Optimization" /></p>
+                                    <p class="image fit"><img src="images/data_lake_optimization.jpg" alt="Act-On Logo" /></p>
                                     <p>
                                         Identified and resolved critical stability and performance issues within Act-On's core data lake query service, transforming it from a bottleneck into a highly reliable and efficient data foundation.
                                     </p>
                                     <ul class="project-details">
-                                        <li><strong>Problem Identification:</strong> Diagnosed root causes of severe data errors (averaging 800 per hour) and unacceptably slow response times (up to 8 minutes) affecting core customer analytics.</li>
-                                        <li><strong>Solution Implementation:</strong> Implemented a Snowflake deferred merge strategy and optimized data indexing techniques, drastically reducing query execution times and eliminating data duplication.</li>
-                                        <li><strong>Quantitative Impact:</strong> Reduced average response time from 8 minutes to 300 milliseconds and completely eliminated previously persistent data errors, leading to significantly improved data integrity and user experience.</li>
-                                        <li><strong>Tools:</strong> Snowflake, AWS S3, custom data validation scripts.</li>
+                                        <p><strong>Problem Identification:</strong> Diagnosed root causes of severe data errors (averaging 800 per hour) and unacceptably slow response times (up to 8 minutes) affecting core customer analytics.</p>
+                                        <p><strong>Solution Implementation:</strong> Implemented a Snowflake deferred merge strategy and optimized data ingestion techniques, drastically reducing data loss and eliminating data duplication.</p>
+                                        <p><strong>Quantitative Impact:</strong> Reduced average response time from 8 minutes to 300 milliseconds and completely eliminated previously persistent data errors, leading to significantly improved data integrity and user experience.</p>
                                     </ul>
                                 </article>
 							</section>

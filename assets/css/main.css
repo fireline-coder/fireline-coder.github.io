@@ -4687,3 +4687,53 @@ input, select, textarea {
 		}
 
 	}
+	/* Custom CSS for Max's Portfolio */
+
+/* Ensure single column articles take full width on wider screens and have padding */
+@media screen and (min-width: 981px) {
+    .single-column-article {
+        width: 100% !important; /* Force full width, overriding theme defaults */
+        margin-left: 0 !important; /* Remove any left margin from the grid system */
+        margin-right: 0 !important; /* Remove any right margin */
+        padding-left: 2em; /* Add inner padding to keep text off edges */
+        padding-right: 2em; /* Add inner padding to keep text off edges */
+        box-sizing: border-box; /* Include padding in the element's total width and height */
+    }
+}
+
+/* Ensure images within articles are responsive and don't overflow */
+.posts article .image img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+}
+
+/* Specific styling for the Act-On logo to make it smaller */
+.single-column-article .image img[alt="Act-On Logo"] {
+    max-width: 450px; /* Adjust this value to your desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's a block element */
+    margin: 0 auto 1.5em auto; /* Center the image and add some bottom margin */
+}
+
+
+/* Adjustments for the new project details list styling */
+.project-details {
+    list-style-type: disc; /* Keep default bullets for list */
+    padding-left: 1.5em; /* Standard indentation for list */
+}
+.project-details li {
+    margin-bottom: 0.8em; /* Spacing between points */
+    padding: 0.5em 0; /* Add slight vertical padding within list item */
+}
+
+/* Ensure strong tags are actually bold */
+strong {
+    font-weight: bold !important; /* Force bolding, overriding any theme defaults */
+}
+
+/* General article padding to ensure text isn't too close to edges on smaller screens or within grid */
+.posts article {
+    padding: 1.5em; /* Default padding for all articles in the .posts section */
+    box-sizing: border-box;
+}
